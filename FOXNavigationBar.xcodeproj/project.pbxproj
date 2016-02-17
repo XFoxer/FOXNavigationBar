@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661A56ED1C4F367E00786BD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A56EC1C4F367E00786BD5 /* main.m */; };
+		661A56F01C4F367E00786BD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A56EF1C4F367E00786BD5 /* AppDelegate.m */; };
+		661A56F81C4F367E00786BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661A56F71C4F367E00786BD5 /* Assets.xcassets */; };
+		661A56FB1C4F367E00786BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661A56F91C4F367E00786BD5 /* LaunchScreen.storyboard */; };
+		661A57061C4F367E00786BD5 /* FOXNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57051C4F367E00786BD5 /* FOXNavigationBarTests.m */; };
+		661A57111C4F367E00786BD5 /* FOXNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57101C4F367E00786BD5 /* FOXNavigationBarUITests.m */; };
+		661A57291C4F3B0E00786BD5 /* FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */; };
+		661A572A1C4F3B0E00786BD5 /* FOXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */; };
+		661A572D1C4F3B8100786BD5 /* FOXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */; };
+		661A57311C4F6DFF00786BD5 /* back_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661A572F1C4F6DFF00786BD5 /* back_item@2x.png */; };
+		661A57321C4F6DFF00786BD5 /* back_item@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661A57301C4F6DFF00786BD5 /* back_item@3x.png */; };
+		661A57351C4F7FAA00786BD5 /* FOXFistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */; };
+		661A57381C4F7FB400786BD5 /* FOXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */; };
+		66A497CA1C53463F0014F559 /* FOXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497C91C53463F0014F559 /* FOXThirdViewController.m */; };
+		66A497CD1C5346560014F559 /* FOXFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497CC1C5346560014F559 /* FOXFourthViewController.m */; };
+		66A497D01C5346740014F559 /* UIViewController+FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */; };
+		66A497D31C53596A0014F559 /* FOXFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497D21C53596A0014F559 /* FOXFiveViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661A57021C4F367E00786BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661A56E01C4F367D00786BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661A56E71C4F367E00786BD5;
+			remoteInfo = FOXNavigationBar;
+		};
+		661A570D1C4F367E00786BD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 661A56E01C4F367D00786BD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661A56E71C4F367E00786BD5;
+			remoteInfo = FOXNavigationBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		661A56E81C4F367E00786BD5 /* FOXNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		661A56EC1C4F367E00786BD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661A56EE1C4F367E00786BD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661A56EF1C4F367E00786BD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661A56F71C4F367E00786BD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		661A56FA1C4F367E00786BD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		661A56FC1C4F367E00786BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661A57011C4F367E00786BD5 /* FOXNavigationBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOXNavigationBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		661A57051C4F367E00786BD5 /* FOXNavigationBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBarTests.m; sourceTree = "<group>"; };
+		661A57071C4F367E00786BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661A570C1C4F367E00786BD5 /* FOXNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOXNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		661A57101C4F367E00786BD5 /* FOXNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBarUITests.m; sourceTree = "<group>"; };
+		661A57121C4F367E00786BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		661A57251C4F3B0E00786BD5 /* FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationBar.h; sourceTree = "<group>"; };
+		661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBar.m; sourceTree = "<group>"; };
+		661A57271C4F3B0E00786BD5 /* FOXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationViewController.h; sourceTree = "<group>"; };
+		661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationViewController.m; sourceTree = "<group>"; };
+		661A572B1C4F3B8100786BD5 /* FOXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXMainViewController.h; sourceTree = "<group>"; };
+		661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXMainViewController.m; sourceTree = "<group>"; };
+		661A572F1C4F6DFF00786BD5 /* back_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@2x.png"; sourceTree = "<group>"; };
+		661A57301C4F6DFF00786BD5 /* back_item@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@3x.png"; sourceTree = "<group>"; };
+		661A57331C4F7FAA00786BD5 /* FOXFistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOXFistViewController.h; path = ../FOXFistViewController.h; sourceTree = "<group>"; };
+		661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOXFistViewController.m; path = ../FOXFistViewController.m; sourceTree = "<group>"; };
+		661A57361C4F7FB400786BD5 /* FOXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOXSecondViewController.h; path = ../FOXSecondViewController.h; sourceTree = "<group>"; };
+		661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOXSecondViewController.m; path = ../FOXSecondViewController.m; sourceTree = "<group>"; };
+		66A497C81C53463F0014F559 /* FOXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXThirdViewController.h; sourceTree = "<group>"; };
+		66A497C91C53463F0014F559 /* FOXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXThirdViewController.m; sourceTree = "<group>"; };
+		66A497CB1C5346560014F559 /* FOXFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFourthViewController.h; sourceTree = "<group>"; };
+		66A497CC1C5346560014F559 /* FOXFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFourthViewController.m; sourceTree = "<group>"; };
+		66A497CE1C5346740014F559 /* UIViewController+FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FOXNavigationBar.h"; sourceTree = "<group>"; };
+		66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FOXNavigationBar.m"; sourceTree = "<group>"; };
+		66A497D11C53596A0014F559 /* FOXFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFiveViewController.h; sourceTree = "<group>"; };
+		66A497D21C53596A0014F559 /* FOXFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFiveViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661A56E51C4F367E00786BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A56FE1C4F367E00786BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A57091C4F367E00786BD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661A56DF1C4F367D00786BD5 = {
+			isa = PBXGroup;
+			children = (
+				661A56EA1C4F367E00786BD5 /* FOXNavigationBar */,
+				661A56EB1C4F367E00786BD5 /* Supporting Files */,
+				661A57041C4F367E00786BD5 /* FOXNavigationBarTests */,
+				661A570F1C4F367E00786BD5 /* FOXNavigationBarUITests */,
+				661A56E91C4F367E00786BD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661A56E91C4F367E00786BD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661A56E81C4F367E00786BD5 /* FOXNavigationBar.app */,
+				661A57011C4F367E00786BD5 /* FOXNavigationBarTests.xctest */,
+				661A570C1C4F367E00786BD5 /* FOXNavigationBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661A56EA1C4F367E00786BD5 /* FOXNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				661A56EE1C4F367E00786BD5 /* AppDelegate.h */,
+				661A56EF1C4F367E00786BD5 /* AppDelegate.m */,
+				661A572B1C4F3B8100786BD5 /* FOXMainViewController.h */,
+				661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */,
+				661A57331C4F7FAA00786BD5 /* FOXFistViewController.h */,
+				661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */,
+				661A57361C4F7FB400786BD5 /* FOXSecondViewController.h */,
+				661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */,
+				66A497C81C53463F0014F559 /* FOXThirdViewController.h */,
+				66A497C91C53463F0014F559 /* FOXThirdViewController.m */,
+				66A497CB1C5346560014F559 /* FOXFourthViewController.h */,
+				66A497CC1C5346560014F559 /* FOXFourthViewController.m */,
+				66A497D11C53596A0014F559 /* FOXFiveViewController.h */,
+				66A497D21C53596A0014F559 /* FOXFiveViewController.m */,
+				661A57241C4F3B0E00786BD5 /* FOXNavigationBar */,
+			);
+			path = FOXNavigationBar;
+			sourceTree = "<group>";
+		};
+		661A56EB1C4F367E00786BD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661A56F71C4F367E00786BD5 /* Assets.xcassets */,
+				661A56F91C4F367E00786BD5 /* LaunchScreen.storyboard */,
+				661A56FC1C4F367E00786BD5 /* Info.plist */,
+				661A56EC1C4F367E00786BD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = FOXNavigationBar;
+			sourceTree = "<group>";
+		};
+		661A57041C4F367E00786BD5 /* FOXNavigationBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				661A57051C4F367E00786BD5 /* FOXNavigationBarTests.m */,
+				661A57071C4F367E00786BD5 /* Info.plist */,
+			);
+			path = FOXNavigationBarTests;
+			sourceTree = "<group>";
+		};
+		661A570F1C4F367E00786BD5 /* FOXNavigationBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				661A57101C4F367E00786BD5 /* FOXNavigationBarUITests.m */,
+				661A57121C4F367E00786BD5 /* Info.plist */,
+			);
+			path = FOXNavigationBarUITests;
+			sourceTree = "<group>";
+		};
+		661A57241C4F3B0E00786BD5 /* FOXNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				661A572E1C4F6DFF00786BD5 /* NavgationSource */,
+				661A57251C4F3B0E00786BD5 /* FOXNavigationBar.h */,
+				661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */,
+				661A57271C4F3B0E00786BD5 /* FOXNavigationViewController.h */,
+				661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */,
+				66A497CE1C5346740014F559 /* UIViewController+FOXNavigationBar.h */,
+				66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */,
+			);
+			path = FOXNavigationBar;
+			sourceTree = "<group>";
+		};
+		661A572E1C4F6DFF00786BD5 /* NavgationSource */ = {
+			isa = PBXGroup;
+			children = (
+				661A572F1C4F6DFF00786BD5 /* back_item@2x.png */,
+				661A57301C4F6DFF00786BD5 /* back_item@3x.png */,
+			);
+			name = NavgationSource;
+			path = ../NavgationSource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661A56E71C4F367E00786BD5 /* FOXNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661A57151C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBar" */;
+			buildPhases = (
+				661A56E41C4F367E00786BD5 /* Sources */,
+				661A56E51C4F367E00786BD5 /* Frameworks */,
+				661A56E61C4F367E00786BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FOXNavigationBar;
+			productName = FOXNavigationBar;
+			productReference = 661A56E81C4F367E00786BD5 /* FOXNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661A57001C4F367E00786BD5 /* FOXNavigationBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661A57181C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBarTests" */;
+			buildPhases = (
+				661A56FD1C4F367E00786BD5 /* Sources */,
+				661A56FE1C4F367E00786BD5 /* Frameworks */,
+				661A56FF1C4F367E00786BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661A57031C4F367E00786BD5 /* PBXTargetDependency */,
+			);
+			name = FOXNavigationBarTests;
+			productName = FOXNavigationBarTests;
+			productReference = 661A57011C4F367E00786BD5 /* FOXNavigationBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		661A570B1C4F367E00786BD5 /* FOXNavigationBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661A571B1C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBarUITests" */;
+			buildPhases = (
+				661A57081C4F367E00786BD5 /* Sources */,
+				661A57091C4F367E00786BD5 /* Frameworks */,
+				661A570A1C4F367E00786BD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661A570E1C4F367E00786BD5 /* PBXTargetDependency */,
+			);
+			name = FOXNavigationBarUITests;
+			productName = FOXNavigationBarUITests;
+			productReference = 661A570C1C4F367E00786BD5 /* FOXNavigationBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		661A56E01C4F367D00786BD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FOX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = XFoxer;
+				TargetAttributes = {
+					661A56E71C4F367E00786BD5 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					661A57001C4F367E00786BD5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 661A56E71C4F367E00786BD5;
+					};
+					661A570B1C4F367E00786BD5 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 661A56E71C4F367E00786BD5;
+					};
+				};
+			};
+			buildConfigurationList = 661A56E31C4F367D00786BD5 /* Build configuration list for PBXProject "FOXNavigationBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 661A56DF1C4F367D00786BD5;
+			productRefGroup = 661A56E91C4F367E00786BD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661A56E71C4F367E00786BD5 /* FOXNavigationBar */,
+				661A57001C4F367E00786BD5 /* FOXNavigationBarTests */,
+				661A570B1C4F367E00786BD5 /* FOXNavigationBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661A56E61C4F367E00786BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A56FB1C4F367E00786BD5 /* LaunchScreen.storyboard in Resources */,
+				661A57321C4F6DFF00786BD5 /* back_item@3x.png in Resources */,
+				661A56F81C4F367E00786BD5 /* Assets.xcassets in Resources */,
+				661A57311C4F6DFF00786BD5 /* back_item@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A56FF1C4F367E00786BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A570A1C4F367E00786BD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661A56E41C4F367E00786BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A497D31C53596A0014F559 /* FOXFiveViewController.m in Sources */,
+				66A497D01C5346740014F559 /* UIViewController+FOXNavigationBar.m in Sources */,
+				661A57351C4F7FAA00786BD5 /* FOXFistViewController.m in Sources */,
+				661A572D1C4F3B8100786BD5 /* FOXMainViewController.m in Sources */,
+				66A497CA1C53463F0014F559 /* FOXThirdViewController.m in Sources */,
+				661A572A1C4F3B0E00786BD5 /* FOXNavigationViewController.m in Sources */,
+				661A56F01C4F367E00786BD5 /* AppDelegate.m in Sources */,
+				661A56ED1C4F367E00786BD5 /* main.m in Sources */,
+				661A57381C4F7FB400786BD5 /* FOXSecondViewController.m in Sources */,
+				661A57291C4F3B0E00786BD5 /* FOXNavigationBar.m in Sources */,
+				66A497CD1C5346560014F559 /* FOXFourthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A56FD1C4F367E00786BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A57061C4F367E00786BD5 /* FOXNavigationBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661A57081C4F367E00786BD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661A57111C4F367E00786BD5 /* FOXNavigationBarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		661A57031C4F367E00786BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661A56E71C4F367E00786BD5 /* FOXNavigationBar */;
+			targetProxy = 661A57021C4F367E00786BD5 /* PBXContainerItemProxy */;
+		};
+		661A570E1C4F367E00786BD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661A56E71C4F367E00786BD5 /* FOXNavigationBar */;
+			targetProxy = 661A570D1C4F367E00786BD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		661A56F91C4F367E00786BD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661A56FA1C4F367E00786BD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661A57131C4F367E00786BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661A57141C4F367E00786BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661A57161C4F367E00786BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FOXNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		661A57171C4F367E00786BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FOXNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		661A57191C4F367E00786BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FOXNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOXNavigationBar.app/FOXNavigationBar";
+			};
+			name = Debug;
+		};
+		661A571A1C4F367E00786BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FOXNavigationBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FOXNavigationBar.app/FOXNavigationBar";
+			};
+			name = Release;
+		};
+		661A571C1C4F367E00786BD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FOXNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FOXNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		661A571D1C4F367E00786BD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FOXNavigationBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xfox.FOXNavigationBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FOXNavigationBar;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		661A56E31C4F367D00786BD5 /* Build configuration list for PBXProject "FOXNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A57131C4F367E00786BD5 /* Debug */,
+				661A57141C4F367E00786BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661A57151C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A57161C4F367E00786BD5 /* Debug */,
+				661A57171C4F367E00786BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661A57181C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A57191C4F367E00786BD5 /* Debug */,
+				661A571A1C4F367E00786BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661A571B1C4F367E00786BD5 /* Build configuration list for PBXNativeTarget "FOXNavigationBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661A571C1C4F367E00786BD5 /* Debug */,
+				661A571D1C4F367E00786BD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 661A56E01C4F367D00786BD5 /* Project object */;
+}

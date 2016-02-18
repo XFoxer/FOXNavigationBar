@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66195F041C75A4EF002F1C59 /* FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EEF1C75A4EF002F1C59 /* FOXNavigationBar.m */; };
+		66195F051C75A4EF002F1C59 /* FOXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EF11C75A4EF002F1C59 /* FOXNavigationViewController.m */; };
+		66195F061C75A4EF002F1C59 /* back_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66195EF31C75A4EF002F1C59 /* back_item@2x.png */; };
+		66195F071C75A4EF002F1C59 /* back_item@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 66195EF41C75A4EF002F1C59 /* back_item@3x.png */; };
+		66195F081C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EF61C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.m */; };
+		66195F091C75A4EF002F1C59 /* FOXFistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EF91C75A4EF002F1C59 /* FOXFistViewController.m */; };
+		66195F0A1C75A4EF002F1C59 /* FOXFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EFB1C75A4EF002F1C59 /* FOXFiveViewController.m */; };
+		66195F0B1C75A4EF002F1C59 /* FOXFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EFD1C75A4EF002F1C59 /* FOXFourthViewController.m */; };
+		66195F0C1C75A4EF002F1C59 /* FOXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195EFF1C75A4EF002F1C59 /* FOXMainViewController.m */; };
+		66195F0D1C75A4EF002F1C59 /* FOXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195F011C75A4EF002F1C59 /* FOXSecondViewController.m */; };
+		66195F0E1C75A4EF002F1C59 /* FOXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66195F031C75A4EF002F1C59 /* FOXThirdViewController.m */; };
 		661A56ED1C4F367E00786BD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A56EC1C4F367E00786BD5 /* main.m */; };
 		661A56F01C4F367E00786BD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A56EF1C4F367E00786BD5 /* AppDelegate.m */; };
 		661A56F81C4F367E00786BD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 661A56F71C4F367E00786BD5 /* Assets.xcassets */; };
 		661A56FB1C4F367E00786BD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661A56F91C4F367E00786BD5 /* LaunchScreen.storyboard */; };
 		661A57061C4F367E00786BD5 /* FOXNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57051C4F367E00786BD5 /* FOXNavigationBarTests.m */; };
 		661A57111C4F367E00786BD5 /* FOXNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57101C4F367E00786BD5 /* FOXNavigationBarUITests.m */; };
-		661A57291C4F3B0E00786BD5 /* FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */; };
-		661A572A1C4F3B0E00786BD5 /* FOXNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */; };
-		661A572D1C4F3B8100786BD5 /* FOXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */; };
-		661A57311C4F6DFF00786BD5 /* back_item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661A572F1C4F6DFF00786BD5 /* back_item@2x.png */; };
-		661A57321C4F6DFF00786BD5 /* back_item@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661A57301C4F6DFF00786BD5 /* back_item@3x.png */; };
-		661A57351C4F7FAA00786BD5 /* FOXFistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */; };
-		661A57381C4F7FB400786BD5 /* FOXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */; };
-		66A497CA1C53463F0014F559 /* FOXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497C91C53463F0014F559 /* FOXThirdViewController.m */; };
-		66A497CD1C5346560014F559 /* FOXFourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497CC1C5346560014F559 /* FOXFourthViewController.m */; };
-		66A497D01C5346740014F559 /* UIViewController+FOXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */; };
-		66A497D31C53596A0014F559 /* FOXFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A497D21C53596A0014F559 /* FOXFiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66195EEE1C75A4EF002F1C59 /* FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationBar.h; sourceTree = "<group>"; };
+		66195EEF1C75A4EF002F1C59 /* FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBar.m; sourceTree = "<group>"; };
+		66195EF01C75A4EF002F1C59 /* FOXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationViewController.h; sourceTree = "<group>"; };
+		66195EF11C75A4EF002F1C59 /* FOXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationViewController.m; sourceTree = "<group>"; };
+		66195EF31C75A4EF002F1C59 /* back_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@2x.png"; sourceTree = "<group>"; };
+		66195EF41C75A4EF002F1C59 /* back_item@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@3x.png"; sourceTree = "<group>"; };
+		66195EF51C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FOXNavigationBar.h"; sourceTree = "<group>"; };
+		66195EF61C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FOXNavigationBar.m"; sourceTree = "<group>"; };
+		66195EF81C75A4EF002F1C59 /* FOXFistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFistViewController.h; sourceTree = "<group>"; };
+		66195EF91C75A4EF002F1C59 /* FOXFistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFistViewController.m; sourceTree = "<group>"; };
+		66195EFA1C75A4EF002F1C59 /* FOXFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFiveViewController.h; sourceTree = "<group>"; };
+		66195EFB1C75A4EF002F1C59 /* FOXFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFiveViewController.m; sourceTree = "<group>"; };
+		66195EFC1C75A4EF002F1C59 /* FOXFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFourthViewController.h; sourceTree = "<group>"; };
+		66195EFD1C75A4EF002F1C59 /* FOXFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFourthViewController.m; sourceTree = "<group>"; };
+		66195EFE1C75A4EF002F1C59 /* FOXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXMainViewController.h; sourceTree = "<group>"; };
+		66195EFF1C75A4EF002F1C59 /* FOXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXMainViewController.m; sourceTree = "<group>"; };
+		66195F001C75A4EF002F1C59 /* FOXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXSecondViewController.h; sourceTree = "<group>"; };
+		66195F011C75A4EF002F1C59 /* FOXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXSecondViewController.m; sourceTree = "<group>"; };
+		66195F021C75A4EF002F1C59 /* FOXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXThirdViewController.h; sourceTree = "<group>"; };
+		66195F031C75A4EF002F1C59 /* FOXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXThirdViewController.m; sourceTree = "<group>"; };
 		661A56E81C4F367E00786BD5 /* FOXNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOXNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		661A56EC1C4F367E00786BD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		661A56EE1C4F367E00786BD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,26 +77,6 @@
 		661A570C1C4F367E00786BD5 /* FOXNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FOXNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		661A57101C4F367E00786BD5 /* FOXNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBarUITests.m; sourceTree = "<group>"; };
 		661A57121C4F367E00786BD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		661A57251C4F3B0E00786BD5 /* FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationBar.h; sourceTree = "<group>"; };
-		661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationBar.m; sourceTree = "<group>"; };
-		661A57271C4F3B0E00786BD5 /* FOXNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXNavigationViewController.h; sourceTree = "<group>"; };
-		661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXNavigationViewController.m; sourceTree = "<group>"; };
-		661A572B1C4F3B8100786BD5 /* FOXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXMainViewController.h; sourceTree = "<group>"; };
-		661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXMainViewController.m; sourceTree = "<group>"; };
-		661A572F1C4F6DFF00786BD5 /* back_item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@2x.png"; sourceTree = "<group>"; };
-		661A57301C4F6DFF00786BD5 /* back_item@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_item@3x.png"; sourceTree = "<group>"; };
-		661A57331C4F7FAA00786BD5 /* FOXFistViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOXFistViewController.h; path = ../FOXFistViewController.h; sourceTree = "<group>"; };
-		661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOXFistViewController.m; path = ../FOXFistViewController.m; sourceTree = "<group>"; };
-		661A57361C4F7FB400786BD5 /* FOXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FOXSecondViewController.h; path = ../FOXSecondViewController.h; sourceTree = "<group>"; };
-		661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FOXSecondViewController.m; path = ../FOXSecondViewController.m; sourceTree = "<group>"; };
-		66A497C81C53463F0014F559 /* FOXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXThirdViewController.h; sourceTree = "<group>"; };
-		66A497C91C53463F0014F559 /* FOXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXThirdViewController.m; sourceTree = "<group>"; };
-		66A497CB1C5346560014F559 /* FOXFourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFourthViewController.h; sourceTree = "<group>"; };
-		66A497CC1C5346560014F559 /* FOXFourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFourthViewController.m; sourceTree = "<group>"; };
-		66A497CE1C5346740014F559 /* UIViewController+FOXNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FOXNavigationBar.h"; sourceTree = "<group>"; };
-		66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FOXNavigationBar.m"; sourceTree = "<group>"; };
-		66A497D11C53596A0014F559 /* FOXFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOXFiveViewController.h; sourceTree = "<group>"; };
-		66A497D21C53596A0014F559 /* FOXFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOXFiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +104,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66195EED1C75A4EF002F1C59 /* FOXNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				66195EF21C75A4EF002F1C59 /* NavgationSource */,
+				66195EEE1C75A4EF002F1C59 /* FOXNavigationBar.h */,
+				66195EEF1C75A4EF002F1C59 /* FOXNavigationBar.m */,
+				66195EF01C75A4EF002F1C59 /* FOXNavigationViewController.h */,
+				66195EF11C75A4EF002F1C59 /* FOXNavigationViewController.m */,
+				66195EF51C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.h */,
+				66195EF61C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.m */,
+			);
+			path = FOXNavigationBar;
+			sourceTree = "<group>";
+		};
+		66195EF21C75A4EF002F1C59 /* NavgationSource */ = {
+			isa = PBXGroup;
+			children = (
+				66195EF31C75A4EF002F1C59 /* back_item@2x.png */,
+				66195EF41C75A4EF002F1C59 /* back_item@3x.png */,
+			);
+			path = NavgationSource;
+			sourceTree = "<group>";
+		};
+		66195EF71C75A4EF002F1C59 /* NavigationModule */ = {
+			isa = PBXGroup;
+			children = (
+				66195EFE1C75A4EF002F1C59 /* FOXMainViewController.h */,
+				66195EFF1C75A4EF002F1C59 /* FOXMainViewController.m */,
+				66195EF81C75A4EF002F1C59 /* FOXFistViewController.h */,
+				66195EF91C75A4EF002F1C59 /* FOXFistViewController.m */,
+				66195EFA1C75A4EF002F1C59 /* FOXFiveViewController.h */,
+				66195EFB1C75A4EF002F1C59 /* FOXFiveViewController.m */,
+				66195EFC1C75A4EF002F1C59 /* FOXFourthViewController.h */,
+				66195EFD1C75A4EF002F1C59 /* FOXFourthViewController.m */,
+				66195F001C75A4EF002F1C59 /* FOXSecondViewController.h */,
+				66195F011C75A4EF002F1C59 /* FOXSecondViewController.m */,
+				66195F021C75A4EF002F1C59 /* FOXThirdViewController.h */,
+				66195F031C75A4EF002F1C59 /* FOXThirdViewController.m */,
+			);
+			path = NavigationModule;
+			sourceTree = "<group>";
+		};
 		661A56DF1C4F367D00786BD5 = {
 			isa = PBXGroup;
 			children = (
@@ -130,19 +172,8 @@
 			children = (
 				661A56EE1C4F367E00786BD5 /* AppDelegate.h */,
 				661A56EF1C4F367E00786BD5 /* AppDelegate.m */,
-				661A572B1C4F3B8100786BD5 /* FOXMainViewController.h */,
-				661A572C1C4F3B8100786BD5 /* FOXMainViewController.m */,
-				661A57331C4F7FAA00786BD5 /* FOXFistViewController.h */,
-				661A57341C4F7FAA00786BD5 /* FOXFistViewController.m */,
-				661A57361C4F7FB400786BD5 /* FOXSecondViewController.h */,
-				661A57371C4F7FB400786BD5 /* FOXSecondViewController.m */,
-				66A497C81C53463F0014F559 /* FOXThirdViewController.h */,
-				66A497C91C53463F0014F559 /* FOXThirdViewController.m */,
-				66A497CB1C5346560014F559 /* FOXFourthViewController.h */,
-				66A497CC1C5346560014F559 /* FOXFourthViewController.m */,
-				66A497D11C53596A0014F559 /* FOXFiveViewController.h */,
-				66A497D21C53596A0014F559 /* FOXFiveViewController.m */,
-				661A57241C4F3B0E00786BD5 /* FOXNavigationBar */,
+				66195EF71C75A4EF002F1C59 /* NavigationModule */,
+				66195EED1C75A4EF002F1C59 /* FOXNavigationBar */,
 			);
 			path = FOXNavigationBar;
 			sourceTree = "<group>";
@@ -175,30 +206,6 @@
 				661A57121C4F367E00786BD5 /* Info.plist */,
 			);
 			path = FOXNavigationBarUITests;
-			sourceTree = "<group>";
-		};
-		661A57241C4F3B0E00786BD5 /* FOXNavigationBar */ = {
-			isa = PBXGroup;
-			children = (
-				661A572E1C4F6DFF00786BD5 /* NavgationSource */,
-				661A57251C4F3B0E00786BD5 /* FOXNavigationBar.h */,
-				661A57261C4F3B0E00786BD5 /* FOXNavigationBar.m */,
-				661A57271C4F3B0E00786BD5 /* FOXNavigationViewController.h */,
-				661A57281C4F3B0E00786BD5 /* FOXNavigationViewController.m */,
-				66A497CE1C5346740014F559 /* UIViewController+FOXNavigationBar.h */,
-				66A497CF1C5346740014F559 /* UIViewController+FOXNavigationBar.m */,
-			);
-			path = FOXNavigationBar;
-			sourceTree = "<group>";
-		};
-		661A572E1C4F6DFF00786BD5 /* NavgationSource */ = {
-			isa = PBXGroup;
-			children = (
-				661A572F1C4F6DFF00786BD5 /* back_item@2x.png */,
-				661A57301C4F6DFF00786BD5 /* back_item@3x.png */,
-			);
-			name = NavgationSource;
-			path = ../NavgationSource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,9 +313,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				661A56FB1C4F367E00786BD5 /* LaunchScreen.storyboard in Resources */,
-				661A57321C4F6DFF00786BD5 /* back_item@3x.png in Resources */,
+				66195F071C75A4EF002F1C59 /* back_item@3x.png in Resources */,
 				661A56F81C4F367E00786BD5 /* Assets.xcassets in Resources */,
-				661A57311C4F6DFF00786BD5 /* back_item@2x.png in Resources */,
+				66195F061C75A4EF002F1C59 /* back_item@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,17 +340,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66A497D31C53596A0014F559 /* FOXFiveViewController.m in Sources */,
-				66A497D01C5346740014F559 /* UIViewController+FOXNavigationBar.m in Sources */,
-				661A57351C4F7FAA00786BD5 /* FOXFistViewController.m in Sources */,
-				661A572D1C4F3B8100786BD5 /* FOXMainViewController.m in Sources */,
-				66A497CA1C53463F0014F559 /* FOXThirdViewController.m in Sources */,
-				661A572A1C4F3B0E00786BD5 /* FOXNavigationViewController.m in Sources */,
+				66195F0B1C75A4EF002F1C59 /* FOXFourthViewController.m in Sources */,
+				66195F091C75A4EF002F1C59 /* FOXFistViewController.m in Sources */,
+				66195F081C75A4EF002F1C59 /* UIViewController+FOXNavigationBar.m in Sources */,
+				66195F0E1C75A4EF002F1C59 /* FOXThirdViewController.m in Sources */,
+				66195F051C75A4EF002F1C59 /* FOXNavigationViewController.m in Sources */,
+				66195F0D1C75A4EF002F1C59 /* FOXSecondViewController.m in Sources */,
 				661A56F01C4F367E00786BD5 /* AppDelegate.m in Sources */,
+				66195F0A1C75A4EF002F1C59 /* FOXFiveViewController.m in Sources */,
+				66195F0C1C75A4EF002F1C59 /* FOXMainViewController.m in Sources */,
 				661A56ED1C4F367E00786BD5 /* main.m in Sources */,
-				661A57381C4F7FB400786BD5 /* FOXSecondViewController.m in Sources */,
-				661A57291C4F3B0E00786BD5 /* FOXNavigationBar.m in Sources */,
-				66A497CD1C5346560014F559 /* FOXFourthViewController.m in Sources */,
+				66195F041C75A4EF002F1C59 /* FOXNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
